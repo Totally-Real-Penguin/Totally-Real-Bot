@@ -3,7 +3,6 @@ from discord.ui import *
 from discord.ext import *
 from asyncio import *
 from youtube_dl import *
-from config import *
 from os import system
 
 intents = Intents.default()
