@@ -4,6 +4,7 @@ from discord.ext import *
 from asyncio import *
 from youtube_dl import *
 from os import system
+from config import *
 
 intents = Intents.default()
 intents.message_content = True
